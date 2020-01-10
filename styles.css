@@ -1,12 +1,219 @@
-    img.google{
+   
+   body{ 
+    background: #fff;
+    font-family: arial,sans-serif;
+   }
+  
+   .about{
+    opacity: 0.75;
+    }
+
+    .about:hover, .store:hover, .gmail:hover, .images:hover{
+       text-decoration-line: underline;
+     
+    }
+
+   .button  {
+     line-height: 28px;
+     padding: 0 12px;
+    padding-top: 0px;
+    padding-right: 13px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    font-weight: bold;
+    outline: none;
+    color: #fff;
+    vertical-align: middle;
+    }
+
+    .gmail{
+      opacity: 0.75;
+      vertical-align: middle;
+      line-height: 24px;
+   
+      float: right;
+      position: relative;}
+    
+    .store{
+      opacity: 0.75;
+      padding-left: 15px;
+    }
+    
+    .images{
+      opacity: 0.75;
+      line-height: 24px;
+      padding-right: 15px;
+      padding-left: 15px;
+      float: right;
+    position: relative;}
+    
+    .blockshit{
+      line-height: 24px;
+      padding-right: 15px;
+      float: right;
+    position: relative;}
+    
+    .block{
+      height: 30px;
+      width: 30px;
+      vertical-align: middle;
+      padding-right: 1px;
+    }
+    
+    .button{
+      line-height: 30px;
+     border-radius: 3px;
+      float: right;
+      
+    position: relative;
+  }
+    
+
+   img.google{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 272px;
-  }
+    padding-top: 109px;
+   }
+
+   .searchbar{
+    top: 40.5%;
+    left: 32%;
+    padding-left: 15px;
+    padding: 0;
+    border-radius: 24px;
+    border: 0px solid #dfe1e5;
+    margin: 0 auto;
+     height: 34px;
+     width:527px;
+    font: 16px arial,sans-serif;
+    background-color: transparent;
+    position: fixed;}
+    
+    .searchbar1{
+      top: 39.62%;
+      left: 28.2%;
+      padding-left: 15px;
+      padding: 0;
+      border-radius: 24px;
+      border: 1px solid #dfe1e5;
+      margin: 0 auto;
+       height: 45px;
+       width:585px;
+      font: 16px arial,sans-serif;
+      background-color: transparent;
+      position: fixed;
+      pointer-events: none;
+    }
+
   ul {
     list-style-type: none;
-    margin: 0;
+    margin: 89;
     padding: 0;
+    padding-left: 17px;
+    color: #000;
+    font-size: 13px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    padding-right: 18px;
+    padding-top: 5px;
   }
-  li{display:inline;}
+  li{
+    display:inline-block;
+  }
+
+  .search{
+    font-size: 14px;
+    border-radius: 4px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    margin-top: 11px;
+    margin-right: 4px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+    height: 36px;
+    min-width: 54px;
+  }
+
+  .altsearch{
+    font-size: 14px;
+    border-radius: 4px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    height: 36px;
+    }
+
+    .center{
+      position: absolute;
+      left: 38%;
+      top: 48%;
+    }
+
+    .search:hover, .altsearch:hover{
+      border-color: rgba(126, 126, 126, 0.507);
+      cursor: pointer;
+    }
+
+    footer{
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: fixed;
+      background-color: #f2f2f2;
+     height: 40px;
+     font-size: 13px;
+     display: block;
+     width: 100%; 
+   overflow: hidden;
+   font-family: arial,sans-serif;
+   border-top: 1px solid rgba(196, 196, 196, 0.541);
+  
+    }
+
+    .bottomlist li{
+      padding-left: 26px;
+      font-size: 13px;
+      padding-top: 3px;
+    }
+
+    .bottomlist li:hover{
+      text-decoration-line: underline;
+      cursor: pointer;
+    }
+
+    .bottomlist{
+      padding-left: 0px;
+      padding-right: 30px;
+    vertical-align: middle;
+      opacity: 0.85;
+      color: #5f6368;
+      margin: 0 auto;
+      font-size: 13;
+    }
+
+    .btmrt{
+      float: right;
+}
+
+    .btmlft{
+      float: left;
+    }
+.mag{
+  height:40px;
+  width:40px;
+}
+

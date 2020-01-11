@@ -10,7 +10,7 @@
 
     .about:hover, .store:hover, .gmail:hover, .images:hover{
        text-decoration-line: underline;
-     
+       cursor: pointer;
     }
 
    .button  {
@@ -47,53 +47,44 @@
       padding-right: 15px;
       padding-left: 15px;
       float: right;
-    position: relative;}
+      position: relative;}
     
     .blockshit{
       line-height: 24px;
       padding-right: 15px;
       float: right;
-    position: relative;}
+    }
     
     .block{
       height: 30px;
       width: 30px;
-      vertical-align: middle;
       padding-right: 1px;
     }
     
     .button{
       line-height: 30px;
-     border-radius: 3px;
+      border-radius: 3px;
       float: right;
-      
-    position: relative;
+      position: relative;
   }
     
 
    img.google{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 43%;
     width: 272px;
-    padding-top: 60px;
+    padding-top: 109px;
    }
 
     .searchbar{
-    top: 33%;
-    left: 35%;
-    padding-left: 1500px;
-    padding: 0;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
-    margin: 0 auto;
      height: 45px;
      width:545px;
     font: 16px arial,sans-serif;
     background-color: transparent;
-    position: fixed;
     outline: none;
-  }
+    }
 
 
   ul {
@@ -112,6 +103,7 @@
     display:inline-block;
   }
 
+
   .search{
     font-size: 14px;
     border-radius: 4px;
@@ -122,13 +114,8 @@
     padding-right: 16px;
     padding-bottom: 0px;
     padding-left: 16px;
-    margin-top: 11px;
-    margin-right: 4px;
-    margin-bottom: 11px;
-    margin-left: 4px;
     height: 36px;
     min-width: 54px;
-    position: relative;
   }
 
   .altsearch{
@@ -142,7 +129,6 @@
     padding-bottom: 0px;
     padding-left: 16px;
     height: 36px;
-    position: relative;
     }
 
     .search:hover, .altsearch:hover{
@@ -194,11 +180,21 @@
     .btmlft{
       float: left;}
 
- button{
-   top: 300px;
-   left: 800px;
- }
-
  input[type="text"]{
    padding-left:50px;
+ }
+
+ .searchbuttons{
+   padding-top: 2%;
+  text-align: center;
+ }
+ 
+ .searchbarposition{
+   padding-top: 1%;
+   text-align: center;
+ }
+ .google{
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
  }
